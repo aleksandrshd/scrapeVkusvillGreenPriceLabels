@@ -1,0 +1,23 @@
+{
+  "name": "scrapevkusvillgreenpricelabels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrVGPL": "node scrapeVkusvillGreenPriceLabels.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandrshd/scrapeVkusvillGreenPriceLabels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandrshd/scrapeVkusvillGreenPriceLabels/issues"
+  },
+  "homepage": "https://github.com/aleksandrshd/scrapeVkusvillGreenPriceLabels#readme",
+  "dependencies": {
+    "puppeteer": "^19.4.0"
+  }
+}
