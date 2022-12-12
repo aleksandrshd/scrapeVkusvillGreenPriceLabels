@@ -32,10 +32,12 @@ const scrapeFromOpenedBrowser = async () => {
           const productTitleSelector = '.ProductCard__link';
           const productPriceSelector = '.Price--green-label .Price__value';
 
+          const id = res.querySelector(productTitleSelector).dataset.id;
           const title = res.querySelector(productTitleSelector).title;
           const price = res.querySelector(productPriceSelector).innerText;
 
           return {
+            id,
             title,
             price
           };
